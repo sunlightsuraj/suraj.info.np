@@ -1,0 +1,51 @@
+.wrapper {
+    background-color: #fff;
+}
+
+.about-me {
+    display: table;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    font-family: 'Crimson Text', serif;
+}
+
+.about-me h1 {
+    font-size: 60px;
+    text-shadow: 1px 1px 5px #252525;
+    color: rgb(43,37,34);
+}
+
+.about-me h3 {
+    font-size: 25px;
+    text-shadow: 1px 1px 2px #252525;
+    color: rgb(43,37,34);
+}
+
+.about-me a {
+    color: rgb(43,37,34);
+    text-decoration: underline;
+}
+
+.my-image {
+    display: table;
+    position: fixed;
+    right: 100px;
+    width: 575px;
+}
+
+ul.social-links {
+    display: table;
+    text-align: center;
+    margin: auto;
+}
+
+ul.social-links li {
+    display: inline;
+    width: 40px;
+    margin-left: 10px;
+}
+
+ul.social-links li a img {
+    width: 40px;
+}
