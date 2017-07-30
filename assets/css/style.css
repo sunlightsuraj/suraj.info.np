@@ -4,20 +4,22 @@
 
 .about-me {
     display: table;
-    position: fixed;
-    top: 100px;
-    left: 100px;
+    /*position: fixed;*/
+    /*top: 100px;
+    left: 100px;*/
     font-family: 'Crimson Text', serif;
+    text-align: center;
+    width: 100%;
 }
 
 .about-me h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-shadow: 1px 1px 5px #252525;
     color: rgb(43,37,34);
 }
 
 .about-me h3 {
-    font-size: 25px;
+    font-size: 23px;
     text-shadow: 1px 1px 2px #252525;
     color: rgb(43,37,34);
 }
@@ -29,15 +31,33 @@
 
 .my-image {
     display: table;
-    position: fixed;
-    right: 100px;
-    width: 575px;
+    /*position: fixed;*/
+    /*right: 100px;
+    width: 575px;*/
+    width: 100%;
+}
+
+.my-image div {
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.my-image img {
+    width: 300px;
+    height: 300px;
+    margin: auto;
 }
 
 ul.social-links {
     display: table;
     text-align: center;
     margin: auto;
+    padding: 0;
 }
 
 ul.social-links li {

@@ -15,8 +15,13 @@
 </head>
 <body>
 <div class="wrapper">
+    <div class="my-image">
+        <div>
+            <img src="assets/image/suraj.png" alt="Suraj Shrestha" class="img-responsive">
+        </div>
+    </div>
     <div class="about-me">
-        <h1>Hello, It's me Suraj.</h1>
+        <h1>Hello, It's me Suraj Shrestha.</h1>
         <h3>I'm a Software Engineer, FOSS Activist and Tech Lover.</h3>
         <h3>If you wanna drop a mail me, you can <i><a href="mailto:pingme@suraj.info.np">pingme@suraj.info.np</a></i></h3>
         <h3>Or you can find me here:</h3>
@@ -27,10 +32,11 @@
             <li><a href="https://plus.google.com/u/0/+SurajShrestha1602" target="_blank"><img src="assets/image/social/gplus.png"
                                                                               alt="google plus"></a></li>
             <li><a href="https://twitter.com/sunlight_suraj" target="_blank"><img src="assets/image/social/twitter.png" alt="twitter"></a> </li>
+            <li>
+                <a href="https://github.com/sunlightsuraj" target="_blank"><img src="assets/image/social/github.png"
+                                                                                alt="github"></a>
+            </li>
         </ul>
-    </div>
-    <div class="my-image">
-        <img src="assets/image/suraj.png" alt="Suraj Shrestha" class="img-responsive">
     </div>
 </div>
 <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
