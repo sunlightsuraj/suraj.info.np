@@ -6,9 +6,18 @@
  */
 ?>
 
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
+<!--[if lt IE 7]> <html class="ie ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="ie ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="ie ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]> <html class="ie ie9 newest" lang="en"> <![endif]-->
 <head>
-    <title>Hello From Suraj</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Suraj Shrestha is the Software Engineer, Full Stack Web Developer, Foss Activist and Technology Lover from Nepal.">
+    <meta name="keywords" content="suraj shrestha, web developer nepal, web developer, software engineer nepal, software engineer, full stack web developer, web developer nepal, nepal">
+    <title>Hello From Suraj Shrestha</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
@@ -33,7 +42,7 @@
     <div class="about-me">
         <h1>Hello, It's me Suraj Shrestha.</h1>
         <h3>I'm a Software Engineer, FOSS Activist and Tech Lover.</h3>
-        <h3>If you wanna drop a mail me, you can <i><a href="mailto:pingme@suraj.info.np">pingme@suraj.info.np</a></i></h3>
+        <h3>If you wanna drop a mail me, you can send mail at <i><a href="mailto:me@suraj.info.np">me@suraj.info.np</a></i></h3>
         <h3>Or you can find me here:</h3>
         <ul class="social-links">
             <li><a href="https://facebook.com/sunlightsuraj" target="_blank"><img src="assets/image/social/fb.png" alt="fb"></a> </li>
@@ -51,5 +60,30 @@
 </div>
 <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Person",
+ "name": "Suraj Shrestha",
+ "familyName" : "Shrestha",
+ "givenName" : "Suraj",
+ "address" : "Bharatpur-13, Chitwan, Nepal",
+ "birthDate" : "30-05-1994",
+ "email" : "mailto:me@suraj.info.np",
+ "gender" : "Male",
+ "jobTitle" : "Software Engineer",
+ "url": "http://www.suraj.info.np/",
+ "image": "http://www.suraj.info.np/assets/image/suraj.png",
+ "telephone": "+977-9845689452",
+ "nationality" : "Nepali",
+ "sameAs": [
+    "https://www.facebook.com/bizaap",
+    "https://www.linkedin.com/in/sunlightsuraj",
+    "https://plus.google.com/u/0/+SurajShrestha1602",
+    "https://twitter.com/sunlight_suraj",
+    "https://github.com/sunlightsuraj"
+ ]
+}
+</script>
 </body>
 </html>
